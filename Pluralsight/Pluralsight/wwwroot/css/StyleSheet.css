@@ -1,0 +1,30 @@
+﻿body {
+}
+
+div#BasicInfo {
+    background-color: aqua;
+}
+
+
+#loginToggle {
+    cursor: pointer;
+}
+
+.popupForm {
+    padding: 8px;
+    border: 2px black dotted;
+    display: inline-block;
+}
+
+.popupForm input {
+    width: 125px;
+}
+
+.popupForm label {
+    width: 150px;
+    display: inline-block;
+}
+
+    .popupForm input[type=checkbox], input[type=submit] {
+        width: auto;
+    }
